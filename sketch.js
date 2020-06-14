@@ -26,7 +26,7 @@ function setup(){
     //log2 = new Log(760,120,212,(-5*PI)/4);
     //log3 = new Log(810,120,212,(5*PI)/4);
     //log4 = new Log(870,120,150,-PI/7);
-    triangle =  new Triangle(760,120,25);
+    triangle1 =  new Triangle(825,120,100);
 
     
     
@@ -45,7 +45,7 @@ function draw(){
     //roof.display();
     //log2.display();
     //log3.display();
-    triangle.display();
+    triangle1.display();
     //log4.display();
     
     ground.display();
