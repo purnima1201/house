@@ -15,9 +15,6 @@ class Triangle {
       push ();
       strokeWeight(4)
       stroke("brown")
-      translate(pos.x,pos.y);
-      angleMode(RADIANS);
-      rotate(this.body.angle);
       fill(255);
       //rect(0,0, this.width, this.height);
       triangle(this.body.vertices[0].x,this.body.vertices[0].y,this.body.vertices[1].x,this.body.vertices[1].y,
